@@ -8,7 +8,6 @@ function App() {
   const [width, setWidth] = useState(window.innerWidth);
 
   const setHeightAndWidthOnWindowChange = () => {
-    console.log('setHeightOnWindowChange');
     setHeight(window.innerHeight);
     setWidth(window.innerWidth);
   };
